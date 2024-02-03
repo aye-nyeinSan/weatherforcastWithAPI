@@ -62,7 +62,7 @@ async function getWeather(lat,lon) {
   const showResult = document.getElementById("showResult");
   showResult.innerHTML='';
   const request = new Request(
-    `http://www.7timer.info/bin/api.pl?lon=${lon}&lat=${lat}&product=civillight&output=json`,
+    `https://www.7timer.info/bin/api.pl?lon=${lon}&lat=${lat}&product=civillight&output=json`,
     {
       method: "GET",
     }
