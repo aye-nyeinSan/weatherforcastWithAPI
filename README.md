@@ -1,5 +1,6 @@
 # weatherforcastWithAPI
-API Project with simple HTML and JavaScript
+API Project with simple HTML and JavaScript  
+
 demo => https://aye-nyeinsan.github.io/weatherforcastWithAPI/
 
 
