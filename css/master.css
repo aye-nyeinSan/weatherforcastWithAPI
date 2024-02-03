@@ -1,0 +1,37 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: black;
+}
+.content{
+    display:none;
+    position: absolute;
+   
+   }
+.show{display: block;}
+
+.copyright-text{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+
+#mydropDown a{
+    background-color:yellow;
+    display: block;
+    border-style: dotted;
+    border-top: rgb(176, 174, 174);
+}
+#showResult{
+    display: flex;
+    justify-content: center;
+}
+
+#showResult >div > div {
+
+    background-color: pink;
+    border-style: dotted;
+    border-bottom: black;
+    padding :14px;
+}
